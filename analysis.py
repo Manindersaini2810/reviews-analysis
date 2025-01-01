@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, accuracy_score
 
-# Load the dataset
+# Loading the dataset
 data = pd.read_csv('ChatGPT_Reviews.csv')
 
 # Fill missing values
